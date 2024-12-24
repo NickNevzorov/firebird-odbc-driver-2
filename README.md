@@ -1,4 +1,4 @@
-# Firebird OBDC driver v2
+# Firebird ODBC driver v2
 
 Fork of Firebird ODBC 2.0.5.156 with some fixes and build under VC2022.
 
