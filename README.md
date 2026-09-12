@@ -16,5 +16,6 @@ Firebird ODBC driver v3: https://github.com/FirebirdSQL/firebird-odbc-driver
   
   https://github.com/FirebirdSQL/firebird-odbc-driver/issues/236
 
+
   https://github.com/FirebirdSQL/firebird-odbc-driver/pull/319
 
