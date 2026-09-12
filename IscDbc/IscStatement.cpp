@@ -348,7 +348,7 @@ isc_tr_handle IscStatement::startTransaction()
 		}
 
 		if ( !(tr->transactionExtInit & TRA_nw) 
-			&& connection->attachment->isFirebirdVer2_0()
+			&& (connection->attachment->majorFb >= 2) // && connection->attachment->isFirebirdVer2_0()
 			&& connection->attachment->getUseLockTimeoutWaitTransactions() )
 		{
 			char *pt = &iscTpb[count];

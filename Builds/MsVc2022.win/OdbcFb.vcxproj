@@ -123,6 +123,10 @@
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <DataExecutionPrevention />
       <ImportLibrary />
+      <HeapReserveSize>8388608</HeapReserveSize>
+      <StackReserveSize>8388608</StackReserveSize>
+      <LargeAddressAware>true</LargeAddressAware>
+      <TerminalServerAware>true</TerminalServerAware>
     </Link>
     <PostBuildEvent>
       <Command />
@@ -170,6 +174,10 @@
       <DataExecutionPrevention />
       <ImportLibrary />
       <TargetMachine>MachineX64</TargetMachine>
+      <LargeAddressAware>true</LargeAddressAware>
+      <TerminalServerAware>true</TerminalServerAware>
+      <HeapReserveSize>8388608</HeapReserveSize>
+      <StackReserveSize>8388608</StackReserveSize>
     </Link>
     <PostBuildEvent>
       <Command />
@@ -214,6 +222,10 @@
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <DataExecutionPrevention />
       <ImportLibrary />
+      <HeapReserveSize>8388608</HeapReserveSize>
+      <StackReserveSize>8388608</StackReserveSize>
+      <LargeAddressAware>true</LargeAddressAware>
+      <TerminalServerAware>true</TerminalServerAware>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -257,6 +269,10 @@
       <DataExecutionPrevention />
       <ImportLibrary />
       <TargetMachine>MachineX64</TargetMachine>
+      <LargeAddressAware>true</LargeAddressAware>
+      <TerminalServerAware>true</TerminalServerAware>
+      <HeapReserveSize>8388608</HeapReserveSize>
+      <StackReserveSize>8388608</StackReserveSize>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
